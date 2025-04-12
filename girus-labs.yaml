@@ -1,0 +1,6 @@
+name: "Teste da coleção de labs"
+description: Teste da coleção de labs
+labs:
+  - name: "Configuração do NGINX"
+    path: "labs/lab_nginx_instalacao.yaml"
+    description: "Aprenda a configurar o servidor web NGINX em um ambiente Linux."
