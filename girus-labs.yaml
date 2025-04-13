@@ -4,3 +4,7 @@ labs:
   - name: "Configuração do NGINX"
     path: "labs/lab_nginx_instalacao.yaml"
     description: "Aprenda a configurar o servidor web NGINX em um ambiente Linux."
+  - name: "Terraform: Fundamentos de Infraestrutura como Código 2"
+    path: "labs/lab_99_terraform_fundamentos.yaml"
+    description: "Aprenda os princípios fundamentais do Terraform, a ferramenta de infraestrutura como código (IaC) da HashiCorp. Entenda conceitos como providers, recursos, variáveis e o ciclo de vida do Terraform."
+    
