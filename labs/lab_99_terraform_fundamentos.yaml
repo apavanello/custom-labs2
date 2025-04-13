@@ -1,13 +1,13 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: terraform-fundamentos-lab
+  name: terraform-fundamentos-lab-2
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: terraform-fundamentos
+    name: terraform-fundamentos-2
     title: "Terraform: Fundamentos de Infraestrutura como Código 2"
     description: "Aprenda os princípios fundamentais do Terraform, a ferramenta de infraestrutura como código (IaC) da HashiCorp. Entenda conceitos como providers, recursos, variáveis e o ciclo de vida do Terraform."
     duration: 25m
