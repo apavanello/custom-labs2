@@ -1,18 +1,16 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: terraform-fundamentos2-lab
+  name: terraform-fundamentos-lab
   namespace: girus
   labels:
     app: girus-lab-template
 data:
   lab.yaml: |
-    name: terraform-aws-infraestrutura2
-    title: "Terraform com AWS: Construindo Infraestrutura em Nuvem 2"
-    description: "Aprenda a usar o Terraform para provisionar e gerenciar recursos na AWS, criando uma infraestrutura completa com recursos como VPC, EC2, RDS e S3."
-    duration: 30m
-    timerEnabled: true
-    maxDuration: 30m
+    name: terraform-fundamentos
+    title: "Terraform: Fundamentos de Infraestrutura como Código 2"
+    description: "Aprenda os princípios fundamentais do Terraform, a ferramenta de infraestrutura como código (IaC) da HashiCorp. Entenda conceitos como providers, recursos, variáveis e o ciclo de vida do Terraform."
+    duration: 25m
     image: "linuxtips/girus-localstack:0.1"
     privileged: true
     type: "aws"
